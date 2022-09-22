@@ -1,0 +1,73 @@
+html {
+    background-image: url("img/img-encriptador.webp");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #000;
+    opacity: 95%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: #eee;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    border: ridge;
+    border-color: #42855B;
+    border-width: 8px;
+    width: 100%;
+    height: 80%;
+}
+
+textarea {
+    width: 98.7%;
+    font-size: x-large;
+    background-color: #D2D79F;
+}
+
+.input-izquierdo{
+    width: 60%;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    background-color: #90B77D;
+    color:#000;
+    border-radius: 5px;
+    margin: 0 0 7px 7px;
+}
+
+.input-derecho{
+    width: 35%;
+}
+
+.texto-encriptado{
+    background-image: url("img/candado.png");
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+}
